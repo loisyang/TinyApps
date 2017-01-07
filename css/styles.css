@@ -1,0 +1,106 @@
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+/*Left Section Styles*/
+section.productImage{
+  padding:0;
+  margin:0;
+  height: 100vh;
+  background-image:url("../img/1productImage.png");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+img.blurb {
+  width: 100%;
+  height: auto;
+}
+/*Right Section Styles*/
+section.productDescription{
+  padding: 0;
+  margin:0;
+}
+div.words{
+  text-align: left;
+  margin-top: 10%;
+}
+
+h1 {
+  font-weight: 700;
+  color: black;
+}
+
+h1.number{
+  color: black;
+  text-decoration: none;
+  border-bottom: 5px solid black;
+}
+
+h1.productName{
+  color: black;
+  letter-spacing: -0.4px;
+  margin-top: 0;
+}
+
+div.hashtag{
+  font-family: 'Share Tech Mono', monospace;
+  margin-top: 60px;
+}
+
+img.arrow{
+  width: 30px;
+  height: auto;
+  margin-left: 30%;
+}
+button.CTA {
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  height: 60px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  /* font-weight: 700; */
+  text-align: center;
+  width: 100%;
+  max-width: 240px;
+  margin-top: 20px;
+  margin-bottom: 10%;
+}
+
+/*section.productImage.col-xs-12 img.screenshot {
+  width:100%;
+  padding:0;
+  height: auto;
+  margin-top: 30%;
+}
+
+section.productImage.col-sm-12 img.screenshot {
+  width:90%;
+  padding-left:10%;
+  height: auto;
+  margin-top: 30%;
+}
+*/
+section.productImage img.screenshot {
+  width:90%;
+  height: auto;
+  padding-left: 10%;
+  margin-top: 15%;
+}
+
+
+/*@media (min-width: 300px) and (-webkit-min-device-pixel-ratio: 3){
+  section.productImage img.screenshot {
+    width:100%;
+    padding: 0;
+    height: auto;
+    margin-top: 10%;
+  }
+/*  section.productImage{
+    min-height: 1200px;
+  }*/
+}*/
+
