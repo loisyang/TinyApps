@@ -53,6 +53,7 @@ img.arrow{
   width: 30px;
   height: auto;
   margin-left: 30%;
+  fill: #D4D4D4;
 }
 button.CTA {
   background-color: black;
@@ -62,12 +63,20 @@ button.CTA {
   height: 60px;
   font-size: 15px;
   letter-spacing: 2px;
-  /* font-weight: 700; */
+  font-weight: 700;
   text-align: center;
   width: 100%;
   max-width: 240px;
   margin-top: 20px;
   margin-bottom: 10%;
+  box-shadow: 10px 10px 30px #C8C8C8;
+  transition-duration: 0.3s;
+}
+button.CTA:hover {
+  transform: translateY(-8px);
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 /*section.productImage.col-xs-12 img.screenshot {
