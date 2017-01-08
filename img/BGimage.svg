@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2880px" height="2048px" viewBox="0 0 2880 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>BG image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="2880" height="2048"></rect>
+        <rect id="path-3" x="87" y="185" width="750" height="1332" rx="11"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="750" height="1332" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="4.54747351e-13" y="0" width="925" height="1702" rx="100"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="925" height="1702" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="354" y="108" width="216" height="17" rx="8.5"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="216" height="17" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0.420487805" y="0" width="430.579512" height="430.47767" rx="91.56"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="430.579512" height="430.47767" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <ellipse id="path-11" cx="215.289756" cy="215.238835" rx="80.7336585" ry="80.7145631"></ellipse>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="161.467317" height="161.429126" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <ellipse id="path-13" cx="215.289756" cy="215.238835" rx="114.372683" ry="114.345631"></ellipse>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="228.745366" height="228.691262" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <ellipse id="path-15" cx="215.289756" cy="215.238835" rx="188.378537" ry="188.333981"></ellipse>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="376.757073" height="376.667961" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="0.125853659" y="0" width="128.874146" height="129.242718" rx="27.468"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="128.874146" height="129.242718" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <ellipse id="path-19" cx="64.4370732" cy="64.6213592" rx="24.1639024" ry="24.2330097"></ellipse>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48.3278049" height="48.4660194" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <ellipse id="path-21" cx="64.4370732" cy="64.6213592" rx="34.2321951" ry="34.3300971"></ellipse>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="68.4643902" height="68.6601942" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <ellipse id="path-23" cx="64.4370732" cy="64.6213592" rx="56.382439" ry="56.5436893"></ellipse>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112.764878" height="113.087379" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <rect id="path-25" x="0.189268293" y="0" width="193.810732" height="193.864078" rx="41.202"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="193.810732" height="193.864078" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <ellipse id="path-27" cx="96.9053659" cy="96.9320388" rx="36.3395122" ry="36.3495146"></ellipse>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72.6790244" height="72.6990291" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <ellipse id="path-29" cx="96.9053659" cy="96.9320388" rx="51.4809756" ry="51.4951456"></ellipse>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="102.961951" height="102.990291" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <ellipse id="path-31" cx="96.9053659" cy="96.9320388" rx="84.7921951" ry="84.815534"></ellipse>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169.58439" height="169.631068" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <rect id="path-33" x="87" y="185" width="750" height="1332" rx="11"></rect>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="750" height="1332" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <rect id="path-35" x="4.54747351e-13" y="0" width="925" height="1702" rx="100"></rect>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="925" height="1702" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <rect id="path-37" x="354" y="108" width="216" height="17" rx="8.5"></rect>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="216" height="17" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <rect id="path-39" x="87" y="185" width="750" height="1332" rx="11"></rect>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="750" height="1332" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <rect id="path-41" x="4.54747351e-13" y="0" width="925" height="1702" rx="100"></rect>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="925" height="1702" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About">
+            <g id="BG-image">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FEFEFE" xlink:href="#path-1"></use>
+                <g id="Phone" opacity="0.200000003" mask="url(#mask-2)">
+                    <g transform="translate(129.000000, 1275.000000)">
+                        <use id="Rectangle-2" stroke="#4A4A4A" mask="url(#mask-4)" stroke-width="10" xlink:href="#path-3"></use>
+                        <use id="Rectangle-2" stroke="#4A4A4A" mask="url(#mask-6)" stroke-width="10" xlink:href="#path-5"></use>
+                        <ellipse id="Oval" stroke="#4A4A4A" stroke-width="5" cx="463" cy="53" rx="10" ry="10"></ellipse>
+                        <use id="Rectangle-3" stroke="#4A4A4A" mask="url(#mask-8)" stroke-width="10" xlink:href="#path-7"></use>
+                        <g id="Hashtags" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(132.000000, 285.000000)" font-weight="normal" font-size="80" font-family="AvenirNextCondensed-Regular, Avenir Next Condensed" font-style="condensed">
+                            <text id="#Design+Development" fill="#4A4A4A">
+                                <tspan x="0" y="444">#Design+Development</tspan>
+                            </text>
+                            <text id="#GameFactory" fill="#4A4A4A">
+                                <tspan x="0" y="258">#GameFactory</tspan>
+                            </text>
+                            <text id="#iOSApps" fill="#4A4A4A">
+                                <tspan x="0" y="80">#iOSApps</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="&quot;Official&quot;-Grid" opacity="0.200000003" mask="url(#mask-2)" stroke="#000000">
+                    <g transform="translate(161.000000, 446.000000)" opacity="0.5">
+                        <use id="Icon-Edge" mask="url(#mask-10)" stroke-width="10" xlink:href="#path-9"></use>
+                        <use id="Inner" mask="url(#mask-12)" stroke-width="10" xlink:href="#path-11"></use>
+                        <use id="Outer" mask="url(#mask-14)" stroke-width="10" xlink:href="#path-13"></use>
+                        <use id="Outermost" mask="url(#mask-16)" stroke-width="10" xlink:href="#path-15"></use>
+                        <path d="M27.5,0 L27.5,430.47767" id="Left" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M0,404.5 L430.579512,404.5" id="Bottom" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M404.5,0 L404.5,430.47767" id="Right" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M0,27.5 L430.579512,27.5" id="Top" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M0,430.47767 L430.579512,0" id="Diagonal-Ascending" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M0,0 L430.579512,430.47767" id="DIagonal-Descending" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M0,215.5 L430.579512,215.5" id="Horizontal" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M215.5,0.210194175 L215.5,432.789806" id="Horizontal" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="&quot;Official&quot;-Grid" opacity="0.200000003" mask="url(#mask-2)" stroke="#000000">
+                    <g transform="translate(990.000000, 749.000000)" opacity="0.5">
+                        <use id="Icon-Edge" mask="url(#mask-18)" stroke-width="5" xlink:href="#path-17"></use>
+                        <use id="Inner" mask="url(#mask-20)" stroke-width="5" xlink:href="#path-19"></use>
+                        <use id="Outer" mask="url(#mask-22)" stroke-width="5" xlink:href="#path-21"></use>
+                        <use id="Outermost" mask="url(#mask-24)" stroke-width="5" xlink:href="#path-23"></use>
+                        <path d="M8.25,0 L8.25,129.242718" id="Left" stroke-width="2.5" stroke-linecap="square"></path>
+                        <path d="M0,121.25 L128.874146,121.25" id="Bottom" stroke-width="2.5" stroke-linecap="square"></path>
+                        <path d="M121.25,0 L121.25,129.242718" id="Right" stroke-width="2.5" stroke-linecap="square"></path>
+                        <path d="M0,8.25 L128.874146,8.25" id="Top" stroke-width="2.5" stroke-linecap="square"></path>
+                        <path d="M0,129.242718 L128.874146,0" id="Diagonal-Ascending" stroke-width="2.5" stroke-linecap="square"></path>
+                        <path d="M0,0 L128.874146,129.242718" id="DIagonal-Descending" stroke-width="2.5" stroke-linecap="square"></path>
+                        <path d="M0,65.25 L128.874146,65.25" id="Horizontal" stroke-width="2.5" stroke-linecap="square"></path>
+                        <path d="M65.25,0.0631067961 L65.25,129.936893" id="Horizontal" stroke-width="2.5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="&quot;Official&quot;-Grid" opacity="0.200000003" mask="url(#mask-2)" stroke="#000000">
+                    <g transform="translate(700.000000, 683.000000)" opacity="0.5">
+                        <use id="Icon-Edge" mask="url(#mask-26)" stroke-width="7.5" xlink:href="#path-25"></use>
+                        <use id="Inner" mask="url(#mask-28)" stroke-width="7.5" xlink:href="#path-27"></use>
+                        <use id="Outer" mask="url(#mask-30)" stroke-width="7.5" xlink:href="#path-29"></use>
+                        <use id="Outermost" mask="url(#mask-32)" stroke-width="7.5" xlink:href="#path-31"></use>
+                        <path d="M12.4069767,0 L12.4069767,193.864078" id="Left" stroke-width="3.75" stroke-linecap="square"></path>
+                        <path d="M0,181.875 L193.810732,181.875" id="Bottom" stroke-width="3.75" stroke-linecap="square"></path>
+                        <path d="M182.344961,0 L182.344961,193.864078" id="Right" stroke-width="3.75" stroke-linecap="square"></path>
+                        <path d="M0,12.375 L193.810732,12.375" id="Top" stroke-width="3.75" stroke-linecap="square"></path>
+                        <path d="M0,193.864078 L193.810732,0" id="Diagonal-Ascending" stroke-width="3.75" stroke-linecap="square"></path>
+                        <path d="M0,0 L193.810732,193.864078" id="DIagonal-Descending" stroke-width="3.75" stroke-linecap="square"></path>
+                        <path d="M0,97.875 L193.810732,97.875" id="Horizontal" stroke-width="3.75" stroke-linecap="square"></path>
+                        <path d="M98.127907,0.0946601942 L98.127907,194.90534" id="Horizontal" stroke-width="3.75" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Phone" opacity="0.200000003" mask="url(#mask-2)" stroke="#4A4A4A">
+                    <g transform="translate(2665.000000, 1912.500000) rotate(-90.000000) translate(-2665.000000, -1912.500000) translate(2202.500000, 1061.500000)">
+                        <use id="Rectangle-2" mask="url(#mask-34)" stroke-width="10" xlink:href="#path-33"></use>
+                        <use id="Rectangle-2" mask="url(#mask-36)" stroke-width="10" xlink:href="#path-35"></use>
+                        <ellipse id="Oval" stroke-width="5" cx="463" cy="53" rx="10" ry="10"></ellipse>
+                        <use id="Rectangle-3" mask="url(#mask-38)" stroke-width="10" xlink:href="#path-37"></use>
+                    </g>
+                </g>
+                <g id="Phone" opacity="0.200000003" mask="url(#mask-2)" stroke="#4A4A4A">
+                    <g transform="translate(1261.000000, -824.000000)">
+                        <use id="Rectangle-2" mask="url(#mask-40)" stroke-width="10" xlink:href="#path-39"></use>
+                        <use id="Rectangle-2" mask="url(#mask-42)" stroke-width="10" xlink:href="#path-41"></use>
+                        <circle id="Oval-2" stroke-width="5" cx="474" cy="1618" r="49"></circle>
+                    </g>
+                </g>
+                <g id="Text-Letters" opacity="0.200000003" mask="url(#mask-2)">
+                    <g transform="translate(2515.000000, 379.500000) rotate(-90.000000) translate(-2515.000000, -379.500000) translate(2016.500000, 293.500000)">
+                        <text id="Aa-Bb-Cc-Dd" stroke="none" font-family="SFUIText-Light, SF UI Text" font-size="144" font-weight="300">
+                            <tspan x="36" y="137" fill="#4A4A4A">Aa Bb Cc Dd</tspan>
+                        </text>
+                        <path d="M0,32 L997,32" id="Line" stroke="#4A4A4A" stroke-width="4" stroke-linecap="square"></path>
+                        <path d="M0,61 L997,61" id="Line" stroke="#4A4A4A" stroke-width="4" stroke-linecap="square"></path>
+                        <path d="M0,136 L997,136" id="Line" stroke="#4A4A4A" stroke-width="4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Text-numbers" opacity="0.200000003" mask="url(#mask-2)">
+                    <g transform="translate(2751.000000, 758.500000) rotate(-90.000000) translate(-2751.000000, -758.500000) translate(2132.500000, 672.500000)">
+                        <text id="1-2-3-4-5-#$%^&amp;*" stroke="none" font-family="SFUIText-Light, SF UI Text" font-size="144" font-weight="300">
+                            <tspan x="36" y="137" fill="#4A4A4A">1 2 3 4 5 #$%^&amp;*</tspan>
+                        </text>
+                        <path d="M0,32 L1237,32" id="Line" stroke="#4A4A4A" stroke-width="4" stroke-linecap="square"></path>
+                        <path d="M0,61 L1237,61" id="Line" stroke="#4A4A4A" stroke-width="4" stroke-linecap="square"></path>
+                        <path d="M0,136 L1237,136" id="Line" stroke="#4A4A4A" stroke-width="4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,12 +1,76 @@
-body{
-  font-family: 'Merriweather Sans', sans-serif;
+@font-face {
+    font-family: CenturyGothic;
+    src: url(century-gothic.ttf);
+    font-weight: normal;
 }
-/*Left Section Styles*/
-section.productImage{
+@font-face {
+    font-family: CenturyGothic;
+    src: url(century-gothic-bold.ttf);
+    font-weight: bold;
+}
+
+body{
+  font-family: CenturyGothic, sans-serif;
+}
+
+/*Font colors*/
+.pink {
+  color: #EE566F;
+}
+.blue {
+  color: #29408C;
+}
+/*Each page is a section, which ocupied the whole page view*/
+section {
+  height: 100vh;
+}
+
+section.about {
+  padding: 0;
+  margin:0;
+  height: 100vh;
+  background-image: url("../img/BGimage.svg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+}
+
+section.about div.logo img{
+  padding-top: 20px;
+  padding-left: 150px;
+  width: 250px;
+}
+
+section.about div.headline{
+  margin:0;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+section.about div.headline h1{
+  font-size: 5rem;
+}
+section.about button {
+  width:60px;
+  border-radius: 100px;
+  height: 60px;
+  background: white;
+  color: black;
+  border: 0;
+  box-shadow: 10px 10px 30px #b6b6b6;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Right div Styles in product sections*/
+div.productImage{
   padding:0;
   margin:0;
   height: 100vh;
-  background-image:url("../img/1productImage.png");
+  background-image:url("../img/1productImage.svg");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,8 +81,8 @@ img.blurb {
   width: 100%;
   height: auto;
 }
-/*Right Section Styles*/
-section.productDescription{
+/*Left div is product description for each product*/
+div.productDescription{
   padding: 0;
   margin:0;
 }
@@ -50,6 +114,7 @@ div.hashtag{
 }
 
 img.arrow{
+  margin-top: 30px;
   width: 30px;
   height: auto;
   margin-left: 30%;
@@ -79,21 +144,21 @@ button.CTA:hover {
   font-weight: 700;
 }
 
-/*section.productImage.col-xs-12 img.screenshot {
+/*div.productImage.col-xs-12 img.screenshot {
   width:100%;
   padding:0;
   height: auto;
   margin-top: 30%;
 }
 
-section.productImage.col-sm-12 img.screenshot {
+div.productImage.col-sm-12 img.screenshot {
   width:90%;
   padding-left:10%;
   height: auto;
   margin-top: 30%;
 }
 */
-section.productImage img.screenshot {
+div.productImage img.screenshot {
   width:90%;
   height: auto;
   padding-left: 10%;
@@ -102,13 +167,13 @@ section.productImage img.screenshot {
 
 
 /*@media (min-width: 300px) and (-webkit-min-device-pixel-ratio: 3){
-  section.productImage img.screenshot {
+  div.productImage img.screenshot {
     width:100%;
     padding: 0;
     height: auto;
     margin-top: 10%;
   }
-/*  section.productImage{
+/*  div.productImage{
     min-height: 1200px;
   }*/
 }*/
