@@ -6,8 +6,8 @@ $(document).ready(function() {
     continuousHorizontal: false,
     scrollHorizontally: false,
     'navigation': true,
-    // 'navigationPosition': 'right',
-    // 'navigationTooltips': ['About', 'Letterix']
+    'navigationPosition': 'right',
+    'navigationTooltips': ['firstPage', 'secondPage','lastPage']
 
   });
 });
