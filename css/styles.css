@@ -113,6 +113,16 @@ div.hashtag{
   margin-top: 60px;
 }
 
+div.description h4{
+  font-family: 'Share Tech Mono', monospace;
+  margin-top: 60px;
+  letter-spacing: -0.3px;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 2.5rem;
+  padding-left: 30px;
+}
+
 img.arrow{
   margin-top: 30px;
   width: 30px;
@@ -157,15 +167,6 @@ div.productImage img.screenshot {
 }
 
 #footer {
-    /*position: fixed;*/
-    height: 50px;
-    display: block;
-    width: 100%;
-    background: #000;
-    /*z-index: 9;*/
-    text-align: center;
-    color: #fff;
-    padding: 10px 0 0 0;
 }
 
 /* fp navigation */
