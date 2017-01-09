@@ -1,14 +1,13 @@
+$(document).ready(function() {
+  $('#fullpage').fullpage({
+    anchors: ['firstPage', 'secondPage'],
+    menu: '#menu',
+    continuousVertical: false,
+    continuousHorizontal: false,
+    scrollHorizontally: false,
+    'navigation': true,
+    // 'navigationPosition': 'right',
+    // 'navigationTooltips': ['About', 'Letterix']
 
-    $(document).ready(function() {
-
-      $("#demosMenu").change(function(){
-        window.location.href = $(this).find("option:selected").attr("id") + '.html';
-      });
-
-      $('#fullpage').fullpage({
-        sectionsColor: ['#fff', '#fff'],
-        anchors: ['firstPage', 'secondPage'],
-        menu: '#menu',
-        continuousVertical: true
-      });
-    });
+  });
+});
