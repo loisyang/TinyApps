@@ -7,7 +7,7 @@
   <title>Tiny Apps</title>
   <meta name="description" content="A Tiny iOS Apps Factory Created by Two Designer-Developer Partners.">
   <meta name="author" content="Lois Yang">
-  <link rel="icon" type="img/logo" href="img/Logo-white.png">
+  <link rel="icon" type="img/logo" href="img/Favicon.png">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Share+Tech+Mono" rel="stylesheet">
@@ -16,47 +16,22 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-</head>
-
-<body>
-  <section class="about">
-    <div class="logo">
-      <img src="img/Logo.svg">
-    </div>
-    <div class="headline">
-      <h1><span class="blue">WE ARE</span><span class="pink"> TINY APPS DESIGN</span></h1>        
-    </div>
-    <div style="text-align: center;">
-      <button><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
-    </div>
-  </section>
-  <section class="product1">
-    <div class="productDescription col-xs-12 col-sm-12 col-md-6">
-      <img class="blurb" src="img/1blurb-green.svg" alt="Blurb">
-      <div class="words col-sm-6 col-xs-6 col-sm-offset-3 col-xs-offset-3">
-        <h1 class="number">1.</h1>
-        <h1 class="productName">LETTERIX</h1>
-        <div class="hashtag">
-          <h3>#TinyGame</h3>
-          <h3>#PlayWords</h3>
-          <h3>#BrainTraining</h3>
-          <h3>#Fun+Challenging</h3>
-          <img class="arrow" src="img/Arrow.svg" >
-        </div>
-        <button class="CTA"><i class="fa fa-apple" aria-hidden="false"> &nbsp; </i>DOWNLOAD</button>
-      </div>
-    </div>
-    <div class="productImage col-xs-12 col-sm-12 col-md-6">
-      <img class="blurb" src="img/1blurb-white.svg" alt="Blurb">
-      <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-        <img class="screenshot" src="img/1screenshot.png" alt="screenshot">
-      </div>
-    </div>
-  </section>
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <!--   <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script> -->
+  <script type="text/javascript" src="js/scrolloverflow.js"></script>
+  <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        anchors: ['firstPage', 'secondPage'],
+        menu: '#menu',
+        continuousVertical: true
+      });
+    });
+  </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -65,9 +40,50 @@
 
     ga('create', 'UA-53643162-4', 'auto');
     ga('send', 'pageview');
-    ga('set', 'userId', {{USER_ID}}); // Set the user ID using signed-in user_id.
-
+    ga('set', 'userId', {{USER_ID}});
   </script>
+</head>
 
+<body class="fp-viewing-firstPage" style="overflow: hidden; height: 100%;">
+<!--   <ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+    <li data-menuanchor="secondPage" class=""><a href="#secondPage">Second slide</a></li>
+  </ul> -->
+  <div id="fullpage" class="fullpage-wrapper">
+    <div class="section" id="section0" data-anchor="firstPage">
+      <div class="logo">
+        <img src="img/Logo.svg">
+      </div>
+      <div class="headline">
+        <h1><span class="blue">WE ARE</span><span class="pink"> TINY APPS DESIGN</span></h1>        
+      </div>
+      <div style="text-align: center;">
+        <button><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+      </div>
+    </div>
+    <div class="section" id="section1" data-anchor="secondPage">
+      <div class="productDescription col-xs-12 col-sm-12 col-md-6">
+        <img class="blurb" src="img/1blurb-green.svg" alt="Blurb">
+        <div class="words col-sm-6 col-xs-6 col-sm-offset-3 col-xs-offset-3">
+          <h1 class="number">1.</h1>
+          <h1 class="productName">LETTERIX</h1>
+          <div class="hashtag">
+            <h3>#TinyGame</h3>
+            <h3>#PlayWords</h3>
+            <h3>#BrainTraining</h3>
+            <h3>#Fun+Challenging</h3>
+            <img class="arrow" src="img/Arrow.svg" >
+          </div>
+          <button class="CTA"><i class="fa fa-apple" aria-hidden="false"> &nbsp; </i>DOWNLOAD</button>
+        </div>
+      </div>
+      <div class="productImage col-xs-12 col-sm-12 col-md-6">
+        <img class="blurb" src="img/1blurb-white.svg" alt="Blurb">
+        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <img class="screenshot" src="img/1screenshot.png" alt="screenshot">
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

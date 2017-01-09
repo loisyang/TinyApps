@@ -8,7 +8,6 @@
     src: url(century-gothic-bold.ttf);
     font-weight: bold;
 }
-
 body{
   font-family: CenturyGothic, sans-serif;
 }
@@ -21,11 +20,11 @@ body{
   color: #29408C;
 }
 /*Each page is a section, which ocupied the whole page view*/
-section {
+.section {
   height: 100vh;
 }
 
-section.about {
+#section0 {
   padding: 0;
   margin:0;
   height: 100vh;
@@ -36,22 +35,23 @@ section.about {
   -o-background-size: cover; 
 }
 
-section.about div.logo img{
+#section0 div.logo img{
   padding-top: 20px;
   padding-left: 150px;
   width: 250px;
 }
 
-section.about div.headline{
+#section0 div.headline{
   margin:0;
   text-align: center;
   padding-top: 30vh;
 }
 
-section.about div.headline h1{
+#section0 div.headline h1{
   font-size: 5rem;
 }
-section.about button {
+
+#section0 button {
   width:60px;
   border-radius: 100px;
   height: 60px;
