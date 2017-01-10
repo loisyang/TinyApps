@@ -260,10 +260,10 @@ div.productImage img.screenshot {
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
-    font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
-    white-space: nowrap;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
     max-width: 220px;
     overflow: hidden;
     display: block;

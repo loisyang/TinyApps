@@ -7,7 +7,7 @@ $(document).ready(function() {
     scrollHorizontally: false,
     'navigation': true,
     'navigationPosition': 'right',
-    'navigationTooltips': ['firstPage', 'secondPage','lastPage']
-
+    'navigationTooltips': ['Intro', 'Letterix','About'],
+    showActiveTooltip: true,
   });
 });
