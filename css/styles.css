@@ -21,7 +21,7 @@ button:focus {outline:0;}
 }
 /*Each page is a section, which ocupied the whole page view*/
 .section {
-  height: 100vh;
+  height: 100vh !important;
 }
 
 #section0 {
@@ -113,7 +113,7 @@ div.hashtag{
   margin-top: 60px;
 }
 
-div.description h4{
+div#footer h4{
   font-family: 'Share Tech Mono', monospace;
   margin-top: 60px;
   letter-spacing: -0.3px;
@@ -121,6 +121,13 @@ div.description h4{
   text-align: left;
   line-height: 2.5rem;
   padding-left: 30px;
+}
+
+div#footer h6{
+  color:black; 
+  font-weight: 700;
+  position: relative;
+  bottom: 10px;
 }
 
 img.arrow{
@@ -135,13 +142,12 @@ button.CTA {
   color: white;
   border: 0;
   border-radius: 8px;
-  height: 60px;
-  font-size: 15px;
+  min-height: 60px;
+  font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 700;
   text-align: center;
-  width: 100%;
-  max-width: 240px;
+  width: 240px;
   margin-top: 20px;
   margin-bottom: 10%;
   box-shadow: 10px 10px 30px #C8C8C8;
@@ -283,4 +289,80 @@ div.productImage img.screenshot {
 }
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;
+}
+
+
+/*Mobile Optimization*/
+@media screen and (max-width: 1024px) {
+    #section0 div.headline h1{
+      font-size: 8rem;
+    }
+    h1{
+        font-size:8rem;
+    }
+
+    h3{
+        font-size:7rem;
+    }
+
+    h4{
+        font-size: 6rem;
+    }
+    #section0 button {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      bottom: -300px;
+    }
+
+    #section0 button i.fa.fa-chevron-down{
+      font-size: 5rem;
+    }
+
+    button.CTA {
+      background-color: black;
+      color: white;
+      border: 0;
+      border-radius: 8px;
+      font-size: 4rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      text-align: center;
+      width: 500px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 20px;
+      margin-bottom: 10%;
+      box-shadow: 10px 10px 30px #C8C8C8;
+      transition-duration: 0.3s;
+    }
+
+    div.productImage{
+      display: none;
+    }
+
+    div.productDescription{
+      background: cover;
+    }
+
+    div#footer h4{
+      font-family: 'Share Tech Mono', monospace;
+      margin-top: 60px;
+      letter-spacing: -0.3px;
+      font-size: 6rem;
+      text-align: left;
+      line-height: 6rem;
+      padding-left: 60px;
+    }
+
+
+    div#footer h6{
+      color:black; 
+      font-weight: 700;
+      font-size: 3rem;
+      position: relative;
+      bottom: 10px;
+    }
 }
