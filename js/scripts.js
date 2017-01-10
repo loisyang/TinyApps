@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
+    anchors: ['firstPage', 'secondPage', 'lastPage'],
     menu: '#menu',
     continuousVertical: false,
     continuousHorizontal: false,
