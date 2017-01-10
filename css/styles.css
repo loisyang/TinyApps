@@ -11,7 +11,7 @@
 body{
   font-family: CenturyGothic, sans-serif;
 }
-
+button:focus {outline:0;}
 /*Font colors*/
 .pink {
   color: #EE566F;
