@@ -152,7 +152,7 @@ h4 {
   text-decoration: none;
   opacity: 0.2;
   text-transform: uppercase;
-  font-weight: 700;
+  /*font-weight: 700;*/
 }
 
 hr{
