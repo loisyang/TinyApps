@@ -346,6 +346,10 @@ div.productImage img.screenshot {
     #section0 div.headline h1{
       font-size: 8rem;
     }
+    #section0 div.headline h3{
+      font-size: 4rem;
+      font-weight: 700;
+    }
     h1{
         font-size:8rem;
     }
