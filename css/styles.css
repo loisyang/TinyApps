@@ -387,7 +387,7 @@ div.productImage img.screenshot {
       width: 150px;
       height: 150px;
       position: relative;
-      bottom: -350px;
+      margin-top: 220px;
     }
 
     #section0 button i.fa.fa-chevron-down{
