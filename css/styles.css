@@ -177,6 +177,7 @@ div.hashtag{
 div.footer h4.paragraph{
   font-family: 'Share Tech Mono', monospace;
   margin-top: 60px;
+  text-transform: none;
   opacity: 1;
   letter-spacing: -0.3px;
   font-size: 1.5rem;
@@ -424,6 +425,7 @@ div.productImage img.screenshot {
     div.footer h4.paragraph{
       font-family: 'Share Tech Mono', monospace;
       margin-top: 60px;
+      text-transform: none;
       color: black;
       opacity: 1;
       letter-spacing: -0.3px;
