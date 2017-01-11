@@ -24,10 +24,10 @@ button:focus {outline:0;}
   height: 100vh !important;
 }
 div.words.inactive{
-  -webkit-transition: all 0.7s ;
-  -moz-transition: all 0.7s ;
-  -o-transition: all 0.7s ;
-  transition: all 0.7s ;
+  -webkit-transition: all 0.5s  ;
+  -moz-transition: all 0.5s ;
+  -o-transition: all 0.5s ;
+  transition: all 0.5s ;
   opacity: 0;
   -webkit-transform: translate3d(0px, -100px, 0px);
   -moz-transform: translate3d(0px, -100px, 0px);
@@ -36,10 +36,10 @@ div.words.inactive{
 
 }
 div.words.active{
-  -webkit-transition: all 0.7s ease-out 0.25s;
-  -moz-transition: all 0.7s ease-out 0.25s;
-  -o-transition: all 0.7s ease-out 0.25s;
-  transition: all 0.7s ease-out 0.25s;
+  -webkit-transition: all 0.7s ease-out 0.5s;
+  -moz-transition: all 0.7s ease-out 0.5s;
+  -o-transition: all 0.7s ease-out 0.5s;
+  transition: all 0.7s ease-out 0.5s;
   opacity: 1;
   -webkit-transform: translate3d(0px, 0, 0px);
   -moz-transform: translate3d(0px, 0, 0px);
@@ -47,10 +47,10 @@ div.words.active{
   transform: translate3d(0px, 0, 0px);
 }
 img.screenshot.inactive{
-  -webkit-transition: all 0.7s ;
-  -moz-transition: all 0.7s ;
-  -o-transition: all 0.7s ;
-  transition: all 0.7s ;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   opacity: 0;
   -webkit-transform: translate3d(0px, +100px, 0px);
   -moz-transform: translate3d(0px, +100px, 0px);
@@ -58,10 +58,10 @@ img.screenshot.inactive{
   transform: translate3d(0px, +100px, 0px);
 }
 img.screenshot.active{
-  -webkit-transition: all 0.7s ease-out 0.25s;
-  -moz-transition: all 0.7s ease-out 0.25s;
-  -o-transition: all 0.7s ease-out 0.25s;
-  transition: all 0.7s ease-out 0.25s;
+  -webkit-transition: all 0.7s ease-out 1s;
+  -moz-transition: all 0.7s ease-out 1s;
+  -o-transition: all 0.7s ease-out 1s;
+  transition: all 0.7s ease-out 1s;
   opacity: 1;
     -webkit-transform: translate3d(0px, 0px, 0px);
   -moz-transform: translate3d(0px, 0px, 0px);
