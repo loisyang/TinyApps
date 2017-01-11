@@ -109,7 +109,7 @@ img.screenshot.active{
   border: 0;
   box-shadow: 10px 10px 30px #b6b6b6;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -387,7 +387,7 @@ div.productImage img.screenshot {
       width: 150px;
       height: 150px;
       position: relative;
-      bottom: -300px;
+      bottom: -350px;
     }
 
     #section0 button i.fa.fa-chevron-down{
