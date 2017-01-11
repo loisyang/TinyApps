@@ -29,22 +29,22 @@ div.words.inactive{
   -o-transition: all 0.5s ;
   transition: all 0.5s ;
   opacity: 0;
-  -webkit-transform: translate3d(0px, -100px, 0px);
-  -moz-transform: translate3d(0px, -100px, 0px);
+  /*-webkit-transform: translate3d(0px, -100px, 0px);*/
+/*  -moz-transform: translate3d(0px, -100px, 0px);
   -ms-transform:translate3d(0px, -100px, 0px);
-  transform: translate3d(0px, -100px, 0px);
+  transform: translate3d(0px, -100px, 0px);*/
 
 }
 div.words.active{
-  -webkit-transition: all 0.7s ease-out 0.5s;
-  -moz-transition: all 0.7s ease-out 0.5s;
-  -o-transition: all 0.7s ease-out 0.5s;
-  transition: all 0.7s ease-out 0.5s;
+  -webkit-transition: all 0.7s ease-in-out 0.5s;
+  -moz-transition: all 0.7s ease-in-out 0.5s;
+  -o-transition: all 0.7s ease-in-out 0.5s;
+  transition: all 0.7s ease-in-out 0.5s;
   opacity: 1;
-  -webkit-transform: translate3d(0px, 0, 0px);
+/*  -webkit-transform: translate3d(0px, 0, 0px);
   -moz-transform: translate3d(0px, 0, 0px);
   -ms-transform:translate3d(0px, 0, 0px);
-  transform: translate3d(0px, 0, 0px);
+  transform: translate3d(0px, 0, 0px);*/
 }
 img.screenshot.inactive{
   -webkit-transition: all 0.5s;
@@ -52,21 +52,21 @@ img.screenshot.inactive{
   -o-transition: all 0.5s;
   transition: all 0.5s;
   opacity: 0;
-  -webkit-transform: translate3d(0px, +100px, 0px);
+/*  -webkit-transform: translate3d(0px, +100px, 0px);
   -moz-transform: translate3d(0px, +100px, 0px);
   -ms-transform:translate3d(0px, +100px, 0px);
-  transform: translate3d(0px, +100px, 0px);
+  transform: translate3d(0px, +100px, 0px);*/
 }
 img.screenshot.active{
-  -webkit-transition: all 0.7s ease-out 1s;
-  -moz-transition: all 0.7s ease-out 1s;
-  -o-transition: all 0.7s ease-out 1s;
-  transition: all 0.7s ease-out 1s;
+  -webkit-transition: all 0.7s ease-in-out 0.5s;
+  -moz-transition: all 0.7s ease-in-out 0.5s;
+  -o-transition: all 0.7s ease-in-out 0.5s;
+  transition: all 0.7s ease-in-out 0.5s;
   opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px);
+/*    -webkit-transform: translate3d(0px, 0px, 0px);
   -moz-transform: translate3d(0px, 0px, 0px);
   -ms-transform:translate3d(0px, 0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);*/
 }
 
 #section0 {
@@ -81,19 +81,23 @@ img.screenshot.active{
 }
 
 #section0 div.logo img{
-  padding-top: 20px;
-  padding-left: 150px;
-  width: 250px;
+  padding-top: 50px;
+  width: 100px;
 }
 
 #section0 div.headline{
   margin:0;
-  text-align: center;
+  text-align: left;
   padding-top: 30vh;
 }
 
 #section0 div.headline h1{
   font-size: 5rem;
+  font-weight: 700;
+}
+#section0 div.headline h3{
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 #section0 button {

@@ -15,7 +15,7 @@ $(document).ready(function() {
     onLeave: function(index, nextIndex, direction){
       var thisSection = "#section"+ (index-1)
       $(thisSection+ ' div.words').removeClass('active').addClass('inactive');
-      $(thisSection+ ' img.screenshot').removeClass('active').addClass('inactive');
+      // $(thisSection+ ' img.screenshot').removeClass('active').addClass('inactive');
 
       // detect the next section
       if(direction == 'down') {
@@ -26,7 +26,7 @@ $(document).ready(function() {
       console.log(nextSection)
       if (nextSection != ('section0')){
         $(nextSection + ' div.words').removeClass('inactive').addClass('active');
-        $(nextSection + ' img.screenshot').removeClass('inactive').addClass('active');
+        // $(nextSection + ' img.screenshot').removeClass('inactive').addClass('active');
       }
         // else if(index == 2 && direction == 'up'){
         //     alert("Going to section 1!");
