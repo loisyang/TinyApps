@@ -145,10 +145,22 @@ h1 {
   color: black;
 }
 
-h1.number{
+h4 {
+  font-family: 'Share Tech Mono', monospace;
   color: black;
+  font-size: 1.5rem;
   text-decoration: none;
-  border-bottom: 5px solid black;
+  opacity: 0.2;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+hr{
+  width: 60px;
+  border: 3px solid black;
+  opacity: 0.2;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 h1.productName{
@@ -162,13 +174,14 @@ div.hashtag{
   margin-top: 60px;
 }
 
-div.footer h4{
+div.footer h4.paragraph{
   font-family: 'Share Tech Mono', monospace;
   margin-top: 60px;
+  opacity: 1;
   letter-spacing: -0.3px;
   font-size: 1.5rem;
   text-align: left;
-  line-height: 2.5rem;
+  line-height: 3rem;
   padding-left: 30px;
 }
 
@@ -343,6 +356,13 @@ div.productImage img.screenshot {
 
 /*Mobile Optimization*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+    hr{
+      width: 160px;
+      border: 3px solid black;
+      opacity: 0.2;
+      margin-top: 0;
+      margin-left: 0;
+    }
     #section0 div.headline h1{
       font-size: 8rem;
     }
@@ -358,7 +378,8 @@ div.productImage img.screenshot {
         font-size:7rem;
     }
 
-    h4{
+    h4.number{
+        font-family: 'Share Tech Mono', monospace;
         font-size: 6rem;
     }
     #section0 button {
@@ -400,9 +421,11 @@ div.productImage img.screenshot {
       background: cover;
     }
 
-    div.footer h4{
+    div.footer h4.paragraph{
       font-family: 'Share Tech Mono', monospace;
       margin-top: 60px;
+      color: black;
+      opacity: 1;
       letter-spacing: -0.3px;
       font-size: 5rem;
       text-align: left;
@@ -413,7 +436,7 @@ div.productImage img.screenshot {
 
     div.footer h6{
       color:black; 
-      font-weight: 700;
+      /*font-weight: 700;*/
       font-size: 3rem;
       position: relative;
       bottom: 0px;
