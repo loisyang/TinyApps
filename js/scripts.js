@@ -12,30 +12,30 @@ $(document).ready(function() {
     showActiveTooltip: true,
     keyboardscrolling:true,
     scrollingSpeed: 800,
-    // responsiveWidth: 1024,
-    // responsiveHeight: 700,
+    responsiveWidth: 1024,
+    responsiveHeight: 700,
 
-    onLeave: function(index, nextIndex, direction){
-      var thisSection = "#section"+ (index-1)
-      $(thisSection+ ' div.words').removeClass('active').addClass('inactive');
-      // $(thisSection+ ' img.screenshot').removeClass('active').addClass('inactive');
+    // onLeave: function(index, nextIndex, direction){
+    //   var thisSection = "#section"+ (index-1)
+    //   $(thisSection+ ' div.words').removeClass('active').addClass('inactive');
+    //   // $(thisSection+ ' img.screenshot').removeClass('active').addClass('inactive');
 
-      // detect the next section
-      if(direction == 'down') {
-        var nextSection = "#section"+index;
-      } else if (direction == 'up') {
-        var nextSection = "#section"+(index-2);
-      }
-      console.log(nextSection)
-      if (nextSection != ('section0')){
-        $(nextSection + ' div.words').removeClass('inactive').addClass('active');
-        // $(nextSection + ' img.screenshot').removeClass('inactive').addClass('active');
-      }
-        // else if(index == 2 && direction == 'up'){
-        //     alert("Going to section 1!");
-        // }
+    //   // detect the next section
+    //   if(direction == 'down') {
+    //     var nextSection = "#section"+index;
+    //   } else if (direction == 'up') {
+    //     var nextSection = "#section"+(index-2);
+    //   }
+    //   console.log(nextSection)
+    //   if (nextSection != ('section0')){
+    //     $(nextSection + ' div.words').removeClass('inactive').addClass('active');
+    //     // $(nextSection + ' img.screenshot').removeClass('inactive').addClass('active');
+    //   }
+    //     // else if(index == 2 && direction == 'up'){
+    //     //     alert("Going to section 1!");
+    //     // }
+    // // }
     // }
-    }
   })
 })
 

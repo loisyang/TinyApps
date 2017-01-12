@@ -246,7 +246,7 @@ button.CTA:hover {
 div.productImage img.screenshot {
   height: 70vh;
   width: auto;
-  padding-left: 10%;
+  /*padding-left: 10%;*/
   margin-top: 15%;
 }
 
@@ -478,7 +478,7 @@ div.productImage img.screenshot {
     }
 
     div.productImage{
-      display: none;
+      /*display: none;*/
     }
 
     div.productDescription{
@@ -506,6 +506,26 @@ div.productImage img.screenshot {
       position: relative;
       bottom: 0px;
     }
+
+    .textbox {
+      padding-top: 15%;
+      padding-bottom: 15%;
+    }
+    .name {
+      margin-bottom: 10%;
+    }
+    .textbox h4{
+      font-size: 5rem;
+    }
+
+    .textbox a{
+      font-size: 3rem; 
+    }
+
+    .textbox p{
+      font-size: 4rem;
+    }
+
 }
 
 .container {
