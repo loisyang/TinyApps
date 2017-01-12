@@ -478,7 +478,7 @@ div.productImage img.screenshot {
     }
 
     div.productImage{
-      /*display: none;*/
+      display: none;
     }
 
     div.productDescription{
