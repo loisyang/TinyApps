@@ -217,7 +217,12 @@ img.arrow{
   width: 30px;
   height: auto;
   margin-left: 30%;
-  fill: #D4D4D4;
+}
+img.footerArrow{
+  margin-top: 30px;
+  width: 150px;
+  height: auto;
+  margin-left: 0;
 }
 button.CTA {
   background-color: black;
@@ -234,19 +239,24 @@ button.CTA {
   margin-bottom: 10%;
   box-shadow: 10px 10px 30px #C8C8C8;
   transition-duration: 0.3s;
+  text-transform: uppercase;
+}
+button.CTA.comingSoon{
+  background-color: white;
+  color: black;
+  box-shadow: 0;
 }
 
 button.CTA:hover {
   transform: translateY(-8px);
   letter-spacing: 2px;
   font-weight: 700;
-  color: white;
 }
 
 div.productImage img.screenshot {
   height: 70vh;
   width: auto;
-  /*padding-left: 10%;*/
+  padding-left: 15%;
   margin-top: 15%;
 }
 
@@ -270,7 +280,8 @@ div.productImage img.screenshot {
 .textbox a{
   font-family: CenturyGothic, sans-serif;
   font-weight: 700;
-  color: #8E7141;
+  color: white;
+  background-color: #8E7141;
   border-bottom: 2px #8E7141 solid;
   opacity: 1;
   text-decoration: none;
@@ -279,8 +290,8 @@ div.productImage img.screenshot {
   letter-spacing: 1px;
 }
 .textbox a:hover{
-  color: white;
-  background-color: #8E7141;
+  color: #8E7141;
+  background-color: rgba(0,0,0,0);
   border-bottom: 1px #8E7141 solid;
   transition-duration: 0.4s;
 }
@@ -433,6 +444,9 @@ div.productImage img.screenshot {
     #section0 div.headline h3{
       font-size: 4rem;
       font-weight: 700;
+    }
+    div.productImage img.screenshot {
+      padding-left: 0%;
     }
     h1{
         font-size:6rem;
