@@ -263,15 +263,15 @@ div.productImage img.screenshot {
 .textbox h4{
   font-family: CenturyGothic, sans-serif;
   font-weight: 700;
-  color: black;
+  color: rgba(0,0,0,0.8);
   opacity: 1;
   font-size: 1.2rem;
 }
 .textbox a{
   font-family: CenturyGothic, sans-serif;
   font-weight: 700;
-  color: rgba(0,0,0,0.8);
-  border-bottom: 1px black solid;
+  color: #8E7141;
+  border-bottom: 2px #8E7141 solid;
   opacity: 1;
   text-decoration: none;
   text-transform: uppercase;
@@ -280,8 +280,8 @@ div.productImage img.screenshot {
 }
 .textbox a:hover{
   color: white;
-  background-color: rgba(0,0,0,0.8);
-  border-bottom: 1px black solid;
+  background-color: #8E7141;
+  border-bottom: 1px #8E7141 solid;
   transition-duration: 0.4s;
 }
 .borderRight:after {
@@ -428,23 +428,23 @@ div.productImage img.screenshot {
       margin-left: 0;
     }
     #section0 div.headline h1{
-      font-size: 8rem;
+      font-size: 6rem;
     }
     #section0 div.headline h3{
       font-size: 4rem;
       font-weight: 700;
     }
     h1{
-        font-size:8rem;
+        font-size:6rem;
     }
 
     h3{
-        font-size:7rem;
+        font-size:4rem;
     }
 
     h4.number{
         font-family: 'Share Tech Mono', monospace;
-        font-size: 6rem;
+        font-size: 5rem;
     }
     #section0 button {
       width: 150px;
@@ -494,7 +494,7 @@ div.productImage img.screenshot {
       letter-spacing: -0.3px;
       font-size: 5rem;
       text-align: left;
-      line-height: 5rem;
+      line-height: 5.6rem;
       padding-left: 60px;
     }
 
@@ -524,6 +524,9 @@ div.productImage img.screenshot {
 
     .textbox p{
       font-size: 4rem;
+    }
+    div.productDescription {
+      padding-bottom: 10%
     }
 
 }
