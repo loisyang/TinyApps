@@ -11,6 +11,9 @@ $(document).ready(function() {
     'navigationTooltips': ['Intro', 'Letterix','123Tiles','About'],
     showActiveTooltip: true,
     keyboardscrolling:true,
+    scrollingSpeed: 800,
+    responsiveWidth: 1024,
+    responsiveHeight: 700,
 
     onLeave: function(index, nextIndex, direction){
       var thisSection = "#section"+ (index-1)

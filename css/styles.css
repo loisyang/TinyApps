@@ -16,9 +16,28 @@ button:focus {outline:0;}
 .pink {
   color: #EE566F;
 }
+
 .blue {
   color: #29408C;
 }
+
+.underline {
+/*  text-decoration: underline;
+  -moz-text-decoration-color: #D7B57C;
+  text-decoration-color: #D7B57C;*/
+  border-bottom: medium #D7B57C solid;
+  padding-bottom: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/*.highlight:hover {
+  color: white;
+  background-color: #D7B57C;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}*/
 /*Each page is a section, which ocupied the whole page view*/
 .section {
   height: 100vh !important;
@@ -86,7 +105,7 @@ img.screenshot.active{
 }
 
 #section0 div.headline{
-  margin:0;
+  margin-top:0;
   text-align: left;
   padding-top: 30vh;
 }
@@ -225,8 +244,8 @@ button.CTA:hover {
 }
 
 div.productImage img.screenshot {
-  width:90%;
-  height: auto;
+  height: 70vh;
+  width: auto;
   padding-left: 10%;
   margin-top: 15%;
 }
@@ -235,7 +254,51 @@ div.productImage img.screenshot {
   bottom: 0px;
 }
 
-#footer {
+.textbox {
+  margin-top: 30%;
+  background-color: rgba(255,255,255,0.4);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.textbox h4{
+  font-family: CenturyGothic, sans-serif;
+  font-weight: 700;
+  color: black;
+  opacity: 1;
+  font-size: 1.2rem;
+}
+.textbox a{
+  font-family: CenturyGothic, sans-serif;
+  font-weight: 700;
+  color: rgba(0,0,0,0.8);
+  border-bottom: 1px black solid;
+  opacity: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem; 
+  letter-spacing: 1px;
+}
+.textbox a:hover{
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  border-bottom: 1px black solid;
+  transition-duration: 0.4s;
+}
+.borderRight:after {
+  content:"";
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  top:0px;
+  height: 50px;
+  border-right: 2px solid black;
+}
+.textbox p{
+  font-family: 'Share Tech Mono', monospace;
+}
+#footer{
+  top:40%;
+  width: 100%;
 }
 
 /* fp navigation */
@@ -415,7 +478,7 @@ div.productImage img.screenshot {
     }
 
     div.productImage{
-      display: none;
+      /*display: none;*/
     }
 
     div.productDescription{
@@ -443,4 +506,15 @@ div.productImage img.screenshot {
       position: relative;
       bottom: 0px;
     }
+}
+
+.container {
+  margin:0;
+  padding: 0;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .container {
+      width: 100%;
+  }
 }
