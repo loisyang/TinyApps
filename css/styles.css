@@ -1,3 +1,4 @@
+/*Font*/
 @font-face {
     font-family: CenturyGothic;
     src: url(../fonts/century-gothic.ttf);
@@ -11,8 +12,30 @@
 body{
   font-family: CenturyGothic, sans-serif;
 }
-button:focus {outline:0;}
-/*Font colors*/
+
+h1 {
+  font-weight: 700;
+  color: black;
+}
+
+h4 {
+  font-family: 'Share Tech Mono', monospace;
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  opacity: 0.2;
+  text-transform: uppercase;
+  /*font-weight: 700;*/
+}
+
+hr{
+  width: 60px;
+  border: 3px solid black;
+  opacity: 0.2;
+  margin-top: 0;
+  margin-left: 0;
+}
+
 .pink {
   color: #EE566F;
 }
@@ -22,25 +45,19 @@ button:focus {outline:0;}
 }
 
 .underline {
-/*  text-decoration: underline;
-  -moz-text-decoration-color: #D7B57C;
-  text-decoration-color: #D7B57C;*/
   border-bottom: medium #D7B57C solid;
   padding-bottom: 0;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
-/*.highlight:hover {
-  color: white;
-  background-color: #D7B57C;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-}*/
-/*Each page is a section, which ocupied the whole page view*/
+/* Sections. Two parts: productDescription and productImage */
 .section {
   height: 100vh !important;
+}
+
+div.productDescription{
+  height: 100vh;
 }
 div.words.inactive{
   -webkit-transition: all 0.5s  ;
@@ -65,6 +82,7 @@ div.words.active{
   -ms-transform:translate3d(0px, 0, 0px);
   transform: translate3d(0px, 0, 0px);*/
 }
+
 img.screenshot.inactive{
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -76,6 +94,7 @@ img.screenshot.inactive{
   -ms-transform:translate3d(0px, +100px, 0px);
   transform: translate3d(0px, +100px, 0px);*/
 }
+
 img.screenshot.active{
   -webkit-transition: all 0.7s ease-in-out 0.5s;
   -moz-transition: all 0.7s ease-in-out 0.5s;
@@ -88,6 +107,7 @@ img.screenshot.active{
   transform: translate3d(0px, 0px, 0px);*/
 }
 
+/*Section 0*/
 #section0 {
   padding: 0;
   margin:0;
@@ -118,6 +138,8 @@ img.screenshot.active{
   font-size: 1.6rem;
   font-weight: 700;
 }
+
+button:focus {outline:0;}
 
 #section0 button {
   width:60px;
@@ -159,28 +181,6 @@ div.words{
   margin-top: 10%;
 }
 
-h1 {
-  font-weight: 700;
-  color: black;
-}
-
-h4 {
-  font-family: 'Share Tech Mono', monospace;
-  color: black;
-  font-size: 1.5rem;
-  text-decoration: none;
-  opacity: 0.2;
-  text-transform: uppercase;
-  /*font-weight: 700;*/
-}
-
-hr{
-  width: 60px;
-  border: 3px solid black;
-  opacity: 0.2;
-  margin-top: 0;
-  margin-left: 0;
-}
 
 h1.productName{
   color: black;
@@ -192,6 +192,8 @@ div.hashtag{
   font-family: 'Share Tech Mono', monospace;
   margin-top: 60px;
 }
+
+/* Footer */
 
 div.footer h4.paragraph{
   font-family: 'Share Tech Mono', monospace;
@@ -258,10 +260,6 @@ div.productImage img.screenshot {
   width: auto;
   padding-left: 15%;
   margin-top: 15%;
-}
-
-#footer {
-  bottom: 0px;
 }
 
 .textbox {
@@ -429,6 +427,12 @@ div.productImage img.screenshot {
     left: 20px;
 }
 
+/* Bootstrap div class=container */
+.container {
+  margin:0;
+  padding: 0;
+  width: 100%;
+}
 
 /*Mobile Optimization*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
@@ -548,13 +552,3 @@ div.productImage img.screenshot {
 
 }
 
-.container {
-  margin:0;
-  padding: 0;
-  width: 100%;
-}
-@media (min-width: 1200px) {
-  .container {
-      width: 100%;
-  }
-}
