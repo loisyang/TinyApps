@@ -500,9 +500,6 @@ div.productImage img.screenshot {
       /*display: none;*/
     }
 
-    div.productDescription{
-      background: cover;
-    }
 
     div.footer h4.paragraph{
       font-family: 'Share Tech Mono', monospace;
