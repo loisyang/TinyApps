@@ -56,9 +56,9 @@ hr{
   height: 100vh !important;
 }
 
-div.productDescription{
+/*div.productDescription{
   height: 100vh;
-}
+}*/
 div.words.inactive{
   -webkit-transition: all 0.5s  ;
   -moz-transition: all 0.5s ;
