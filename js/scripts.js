@@ -13,7 +13,7 @@ $(document).ready(function() {
     keyboardscrolling:true,
     scrollingSpeed: 800,
     responsiveWidth: 1024,
-    responsiveHeight: 700,
+    responsiveHeight: 400,
 
     // onLeave: function(index, nextIndex, direction){
     //   var thisSection = "#section"+ (index-1)
