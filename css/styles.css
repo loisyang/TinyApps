@@ -477,6 +477,10 @@ div.productImage img.screenshot {
       font-size: 4rem;
       font-weight: 700;
     }
+    #section0 div.logo img{
+      padding-top: 50px;
+      width: 200px;
+    }
     div.productImage img.screenshot {
       padding-left: 5%;
     }
