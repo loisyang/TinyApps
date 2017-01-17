@@ -1,6 +1,12 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
-  $('#fullpage').fullpage({
+  
+// })
+
+$(window).on('load', function(){
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");
+    $('#fullpage').fullpage({
     anchors: ['firstPage', 'secondPage', 'thirdPage','lastPage'],
     menu: '#menu',
     continuousVertical: false,
@@ -37,6 +43,6 @@ $(document).ready(function() {
     // // }
     // }
   })
-})
-
+    console.log("hey");
+});
 
