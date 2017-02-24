@@ -1,11 +1,12 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 
   
 // })
 
-$(window).on("load",function(){
-    // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");
+// $(window).on("load",function(){
+//     // Animate loader off screen
+//     $(".se-pre-con").fadeOut("slow");
+
     $('#fullpage').fullpage({
     anchors: ['firstPage', 'secondPage', 'thirdPage','lastPage'],
     menu: '#menu',
@@ -43,6 +44,5 @@ $(window).on("load",function(){
     // // }
     // }
   })
-    console.log("hey");
 });
 
