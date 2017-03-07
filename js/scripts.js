@@ -8,14 +8,14 @@ $(document).ready(function() {
 //     $(".se-pre-con").fadeOut("slow");
 
     $('#fullpage').fullpage({
-    anchors: ['firstPage', 'secondPage', 'thirdPage','lastPage'],
+    anchors: ['firstPage', 'secondPage', 'thirdPage','fourthPage','lastPage'],
     menu: '#menu',
     continuousVertical: false,
     continuousHorizontal: false,
     scrollHorizontally: false,
     'navigation': true,
     'navigationPosition': 'right',
-    'navigationTooltips': ['Intro', 'Letterix','123Tiles','About'],
+    'navigationTooltips': ['Intro', 'Letterix','123Tiles','Omega Go','About'],
     showActiveTooltip: true,
     keyboardscrolling:true,
     scrollingSpeed: 800,
