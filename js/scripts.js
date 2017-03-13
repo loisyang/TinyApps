@@ -1,23 +1,24 @@
 $(document).ready(function() {
 
+// to make sure full pager always works, make sure the first section is always 'firstPage'
   
 // })
 
 // $(window).on("load",function(){
-//     // Animate loader off screen
-//     $(".se-pre-con").fadeOut("slow");
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");
 
     $('#fullpage').fullpage({
-    anchors: ['firstPage', 'secondPage', 'thirdPage','fourthPage','lastPage'],
-    menu: '#menu',
+    anchors: ['firstPage', 'fourthPage', 'thirdPage','secondPage'],
+    menu: '#menu ',
     continuousVertical: false,
     continuousHorizontal: false,
     scrollHorizontally: false,
     'navigation': true,
     'navigationPosition': 'right',
-    'navigationTooltips': ['Intro', 'Letterix','123Tiles','Omega Go','About'],
+    'navigationTooltips': ['Intro', 'Omega Go','123Tiles','Letterix'],
     showActiveTooltip: true,
-    keyboardscrolling:true,
+    keyboardscrolling: true,
     scrollingSpeed: 800,
     responsiveWidth: 1024,
     responsiveHeight: 400,

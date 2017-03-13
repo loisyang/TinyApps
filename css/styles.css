@@ -268,7 +268,6 @@ button.CTA {
 button.CTA.comingSoon{
   background-color: white;
   color: black;
-  box-shadow: 0;
 }
 
 button.CTA:hover {
@@ -277,6 +276,9 @@ button.CTA:hover {
   font-weight: 700;
 }
 
+button.CTA.comingSoon:hover{
+  transform: translateY(0px);
+}
 div.productImage img.screenshot {
   height: 70vh;
   width: auto;
