@@ -1,12 +1,12 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
 // to make sure full pager always works, make sure the first section is always 'firstPage'
   
 // })
 
-// $(window).on("load",function(){
+$(window).on("load",function(){
     // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");
+    $("body").fadeIn("slow");
 
     $('#fullpage').fullpage({
     anchors: ['firstPage', 'fourthPage', 'thirdPage','secondPage'],
@@ -22,6 +22,8 @@ $(document).ready(function() {
     scrollingSpeed: 800,
     responsiveWidth: 1024,
     responsiveHeight: 400,
+    loopBottom: true,
+    fixedElements: '#header',
 
     // onLeave: function(index, nextIndex, direction){
     //   var thisSection = "#section"+ (index-1)
