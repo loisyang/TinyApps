@@ -322,6 +322,16 @@ div.productImage img.screenshot {
   margin-top: 15%;
 }
 
+div.productImage video{
+  height: 70vh;
+  width: auto;
+  margin-left: 15%;
+  margin-top: 15%;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 30px 30px 50px rgba(0,0,0,0.5);
+}
+
 .textbox {
   margin-top: 30%;
   background-color: rgba(255,255,255,0.4);
