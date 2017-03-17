@@ -63,7 +63,7 @@ h4.number{
 
 hr{
   width: 90px;
-  border: 2px solid #BFA374;;
+  border: 2px solid #BFA374;
   opacity: 1;
   margin-top: 0;
   margin-left: 0;
@@ -503,7 +503,7 @@ div.productImage img.screenshot {
     }
     hr{
       width: 160px;
-      border: 3px solid black;
+      border: 3px solid #BFA374;
       opacity: 0.2;
       margin-top: 0;
       margin-left: 0;
@@ -523,11 +523,11 @@ div.productImage img.screenshot {
       padding-left: 5%;
     }
     h1{
-        font-size:6rem;
+        font-size:8rem;
     }
 
     h3{
-        font-size:4rem;
+        font-size:6rem;
     }
 
     h4.number{
@@ -551,11 +551,11 @@ div.productImage img.screenshot {
       color: white;
       border: 0;
       border-radius: 8px;
-      font-size: 4rem;
+      font-size: 6rem;
       letter-spacing: 2px;
       font-weight: 700;
       text-align: center;
-      width: 500px;
+      width: 800px;
       padding-left: 40px;
       padding-right: 40px;
       padding-top: 20px;
@@ -616,6 +616,10 @@ div.productImage img.screenshot {
     div.productDescription {
       padding-bottom: 10%
     }
+    div.footer h4.social-icons img{
+      width: 20%
+    }
+
 
 }
 
