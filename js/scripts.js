@@ -9,14 +9,14 @@ $(window).on("load",function(){
     $("body").fadeIn("slow");
 
     $('#fullpage').fullpage({
-    anchors: ['firstPage', 'fourthPage', 'thirdPage','secondPage'],
+    anchors: ['firstPage', 'fourthPage', 'thirdPage','secondPage','lastPage'],
     menu: '#menu ',
     continuousVertical: false,
     continuousHorizontal: false,
     scrollHorizontally: false,
     'navigation': true,
     'navigationPosition': 'right',
-    'navigationTooltips': ['Intro', 'Omega Go','123Tiles','Letterix'],
+    'navigationTooltips': ['Intro', 'Omega Go','123Tiles','Letterix','End'],
     showActiveTooltip: true,
     keyboardscrolling: true,
     scrollingSpeed: 800,
