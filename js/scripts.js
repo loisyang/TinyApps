@@ -16,7 +16,7 @@ $(window).on("load",function(){
     scrollHorizontally: false,
     'navigation': true,
     'navigationPosition': 'right',
-    'navigationTooltips': ['Intro', 'Omega Go','123Tiles','Letterix','End'],
+    'navigationTooltips': ['Intro', 'Omega Go','123Tiles','Letterix','NeverEnd'],
     showActiveTooltip: true,
     keyboardscrolling: true,
     scrollingSpeed: 800,
