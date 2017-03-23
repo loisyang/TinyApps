@@ -318,14 +318,13 @@ button.CTA.comingSoon:hover{
 div.productImage img.screenshot {
   height: 70vh;
   width: auto;
-  padding-left: 15%;
   margin-top: 15%;
 }
 
 div.productImage video{
   height: 70vh;
   width: auto;
-  margin-left: 15%;
+  /*margin-left: 15%;*/
   margin-top: 15%;
   border-radius: 10px;
   border: 0px;
@@ -607,6 +606,7 @@ div.productImage video{
     .textbox {
       padding-top: 15%;
       padding-bottom: 15%;
+      margin-top: 10%;
     }
     .name {
       margin-bottom: 10%;
@@ -630,7 +630,80 @@ div.productImage video{
     div.footer h4.social-icons img{
       width: 20%
     }
+  }
+/*ipad pro optimization*/
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait){
+    .textbox h4{
+      font-size: 2rem;
+    }
+    .textbox p{
+      font-size: 1.7rem;
+    }
+    .textbox a{
+      font-size: 2rem; 
+      border: 3px #8E7141 solid;
+      padding: 10px;
+    }
+    h1{
+      font-size: 4rem;
+    }
+    div.footer h4.paragraph {
+      margin-top: 20%;
+      text-transform: none;
+      color: black;
+      opacity: 1;
+      letter-spacing: -0.3px;
+      font-size: 2rem;
+      text-align: left;
+      padding-left: 0;
+      line-height: 3rem;
+    }
+    button.CTA {
+      background-color: black;
+      color: white;
+      border: 0;
+      border-radius: 8px;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      text-align: center;
+      width: 300px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 20px;
+      margin-bottom: 10%;
+      box-shadow: 10px 10px 30px #C8C8C8;
+      transition-duration: 0.3s;
+    }
+    h4.number{
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 3rem;
+      color: #BFA374;
+    }
 
-
-}
+    h3{
+        font-size:3rem;
+    }
+    div.productImage img.screenshot{
+      margin-top: 80%;
+      width: 30vw;
+      height: auto;
+    }
+    div.productImage video{
+      width: 30vw;
+      margin-top: 80%;
+      height: auto;
+    }
+    div.words {
+        margin-top: 45%;
+    }
+    .textbox {
+      margin-top: 90%;
+    }
+    div.footer h6{
+      font-size: 1rem;
+    }
+  }
 

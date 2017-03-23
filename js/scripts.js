@@ -29,7 +29,7 @@ $(window).on("load",function(){
 });
 
 // Add a custom video player control
-document.addEventListener("DOMContentLoaded", function() { initialiseMediaPlayer(); }, false);
+// document.addEventListener("DOMContentLoaded", function() { initialiseMediaPlayer(); }, false);
 
 // var mediaPlayer;
 // function initialiseMediaPlayer(){
